@@ -3,9 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureResources", "AzureResources", "{8E7C6329-90EB-4063-A5AE-F5B18D893BF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingApp.Api", "TradingApp.Api\TradingApp.Api.csproj", "{B0C1B975-37BA-47E7-966C-D29C2C34BE42}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureStorage", "AzureStorage\AzureStorage.deployproj", "{06BDB70C-C155-4FE3-AF90-33F9C91BEC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingApp.BasicConsole", "TradingApp.BasicConsole\TradingApp.BasicConsole.csproj", "{3EAF48BF-550B-4AFA-B7C4-8DA7F5992BD3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0C1B975-37BA-47E7-966C-D29C2C34BE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C1B975-37BA-47E7-966C-D29C2C34BE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C1B975-37BA-47E7-966C-D29C2C34BE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C1B975-37BA-47E7-966C-D29C2C34BE42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BDB70C-C155-4FE3-AF90-33F9C91BEC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BDB70C-C155-4FE3-AF90-33F9C91BEC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BDB70C-C155-4FE3-AF90-33F9C91BEC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BDB70C-C155-4FE3-AF90-33F9C91BEC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAF48BF-550B-4AFA-B7C4-8DA7F5992BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAF48BF-550B-4AFA-B7C4-8DA7F5992BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAF48BF-550B-4AFA-B7C4-8DA7F5992BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAF48BF-550B-4AFA-B7C4-8DA7F5992BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06BDB70C-C155-4FE3-AF90-33F9C91BEC0A} = {8E7C6329-90EB-4063-A5AE-F5B18D893BF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD910A9D-9DC6-4FF9-B38B-C20857050D6A}
